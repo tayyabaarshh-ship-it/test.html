@@ -1,0 +1,116 @@
+ body{
+ background-color:rgb(216, 189, 153);
+ font-family: 'Courier New', Courier, monospace;
+ margin: 30px;
+        }
+header{
+ display: flex;
+  padding: 20px;
+  box-shadow:0, 0, 10px rgba(0,0,0, 0.1);
+  background-color:whitesmoke;
+  align-items: center;
+  margin: 2px;
+ border-radius: 10px;
+                
+            }
+.logo img{
+ max-width: 10%;
+            }
+              
+            
+.nav-menu a:hover{
+ color: rgb(224, 172, 103);
+             }
+            
+.nav-menu ul{
+ display: flex;
+             } 
+.nav-menu li{
+  list-style: none;
+  margin-right: 20px;
+  font-size: 1.4rem;
+             }  
+                      
+.nav-menu a{
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-size: 1.3;
+  color: #333;
+  transition: all ease 0.3s;
+             }
+.creative-layout { 
+background-color: #ffffff; 
+margin: 40px auto; 
+padding: 30px; 
+border-radius: 12px; 
+width: 90%; 
+max-width: 1000px; 
+ box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    } 
+ 
+ 
+.cards { 
+display: flex; 
+flex-wrap: wrap; 
+justify-content: space-around; 
+gap: 20px; 
+    } 
+ 
+.card { 
+background-color: #f8f9fa; 
+width: 280px; 
+padding: 20px; 
+border: 3px solid #dee2e6; 
+border-radius: 10px; 
+text-align: center; 
+transition: all 0.3s ease-in-out; 
+    } 
+ 
+.card:hover { 
+background-color: #e0f7fa; 
+border-color: #17a2b8; 
+ transform: translateY(-10px); 
+ box-shadow: 0 6px 18px rgba(0,0,0,0.2); 
+    } 
+ 
+.card h3 { 
+color: #007bff; 
+margin-bottom: 10px; 
+    } 
+.gallery{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 18px;
+ margin-top: 40px; 
+        }
+.gallery img{
+ border-radius: 15px;
+ border: 4px solid;
+ transition: traansform 0.3s;
+        }
+.gallery img:hover{
+ transform: scale(1.05);
+        }
+  /* Specific image size  and positioning */
+.img-large {
+ width:300px;
+ height:200px;
+              }
+.img-medium{
+width:200px;
+height:150px;
+              }
+.img-small{
+ width:150px;
+ height:100px;
+              }
+/* Optional creative position*/
+.highlight{
+border:3px solid #007bff;
+transform:rotate(-3deg);
+              }
+.angled{
+ transform:rotate(5deg);
+border:3px solid #28a745;
+              }

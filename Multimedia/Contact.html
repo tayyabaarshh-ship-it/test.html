@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width initial-scale=0.1">
+    <title>Contact Form</title>
+    
+    <!--Import Google Fonts-->
+
+    <!--Import Google Awesome Icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+body{
+background-color:rgb(216, 189, 153);
+font-family: 'Courier New', Courier, monospace;
+margin: 30px;
+        }
+header{
+display: flex;
+padding: 20px;
+box-shadow:0, 0, 10px rgba(0,0,0, 0.1);
+background-color:whitesmoke;
+align-items: center;
+margin: 2px;
+border-radius: 10px;
+                
+            }
+.logo img{
+max-width: 10%;
+            }
+            
+.nav-menu ul{
+display: flex;
+             } 
+.nav-menu li{
+list-style: none;
+margin-right: 20px;
+font-size: 1.4rem;
+             }  
+                      
+.nav-menu a{
+text-decoration: none;
+font-family: Poppins, sans-serif;
+font-size: 1.3;
+color: #333;
+transition: all ease 0.3s;
+             }
+.nav-menu a:hover{
+color: rgb(224, 172, 103);
+             }
+.form-Container{
+background-color: whitesmoke;
+border: 1px solid black;
+border-radius: 10px;
+padding: 30px;
+max-width:600px;
+margin: auto;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+h1{
+text-align: center;
+color: black;
+margin-bottom: 20px;
+        }
+input, textarea, button{
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 15px;
+ border: 2px solid #ccc;
+ border-radius: 5px;
+ font-size: 15px;
+        }
+textarea{
+resize: vertical;
+        }
+input[type="submit"]{
+background: rgb(224, 172, 103);;
+color: #fff;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+border-radius: 6px;
+        }
+button:hover, input[type="submit"]:hover{
+background-color:  #9e9898;
+        }
+        /* Media Quries */
+        /* Tablet Screen */
+@media (max-width: 768px) {
+header {
+font-size: 26px;
+      }
+form input {
+width: 100%;
+      }
+    }
+    
+    /* Mobile Screens */
+@media (max-width: 480px) {
+header {
+font-size: 20px;
+padding: 15px;
+      }
+
+.nav {
+flex-direction: column;
+text-align: center;
+      }
+      
+form input, form textarea {
+width: 100%;
+      }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="logo">
+                <a href=""><img src="https://21fe8e462e52d5613348.cdn6.editmysite.com/uploads/b/21fe8e462e52d5613348b776a6203d67f3ef595c458c5e7c407a835722f7aafa/New%20Logo%20for%20Square%202%20%281%29_1734020397.png?width=2400&optimize=medium" alt="logo"></a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                     <li><a href="index.html">𝓗𝓞𝓜𝓔</a></li>
+                     <li><a href="Menu.html">𝓜𝓔𝓝𝓤</a></li>
+                      <li><a href="Contact.html">𝓒𝓞𝓝𝓣𝓐𝓒𝓣</a></li>
+                      </ul>
+            </nav>
+         </header>
+    </header>
+    <br><br>
+    <div class="form-Container">
+            <h1>𝓡𝓮𝓼𝓮𝓻𝓿𝓪𝓽𝓲𝓸𝓷 𝓕𝓸𝓻𝓶</h1>
+        <form>
+       
+        <input type="text"name="fullname" placeholder="𝔼𝕟𝕥𝕖𝕣 𝕐𝕠𝕦𝕣 ℕ𝕒𝕞𝕖"> <br><br>
+
+        <input type="email" name="email" placeholder="𝔼𝕟𝕥𝕖𝕣 𝕍𝕒𝕝𝕚𝕕 𝔼𝕞𝕒𝕚𝕝"><br><br>
+
+        <input type="tel" name="phone" placeholder="𝕀𝕟𝕧𝕒𝕝𝕚𝕕 ℕ𝕦𝕞𝕓𝕖𝕣"><br><br>
+
+        <input type="date" name="Reservation date"> <br><br>
+
+       
+        <textarea name="𝕄𝕖𝕤𝕤𝕒𝕘𝕖" rows="5" cols="40" placeholder="𝕄𝕖𝕤𝕤𝕒𝕘𝕖"></textarea><br><br>
+
+
+        <input type="Submit" name="Submit" value="𝕊𝕦𝕓𝕞𝕚𝕥">
+        </form>
+       <br><br>
+       <div clas="map" style="background-color: whitesmoke; border-radius: 10px;">
+       <footer style="text-align: center;">
+                    𝓥𝓲𝓼𝓲𝓽 𝓤𝓼: 𝓐𝓻𝓽𝓲𝓼𝓪𝓷 𝓒𝓪𝓯𝓮<br><br>
+                    <!--Embed map-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.0353922201875!2d74.35055337633862!3d31.52318787421266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919053f0bacb163%3A0x97d8c8cefc5c4e71!2sArtisan%20Coffee%20Gulberg!5e0!3m2!1sen!2s!4v1762952917160!5m2!1sen!2s" width="500" height="400" style="border:3px solid rgb(77, 74, 74);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+      <i style="color: #007bff;" class="fa-solid fa-location-dot"></i> 34/P, Mushtaq Ahmed Gurmani Rd,Block P Gulberg 2, Lahore,<br>
+       <i style="color: blue;" class="fa-brands fa-facebook"></i>
+        <i style="color: rgb(179, 21, 147);" class="fa-brands fa-instagram"></i><br>
+        &copy;2025_ 𝓐𝓻𝓽𝓲𝓼𝓪𝓷 𝓒𝓪𝓯𝓮.
+       </footer>
+       </div>
+    </div>
+</body>
+</html>
